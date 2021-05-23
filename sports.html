@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+    
+  <h1 class="w3-xxxlarge w3-text-theme">Sports</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="index.html" class="w3-bar-item w3-button">BASEBALL</a>
+  <a href="#" class="w3-bar-item w3-button">COLLEGE BASKETBALL</a>
+  <a href="#" class="w3-bar-item w3-button">COLLEGE FOOTBALL</a>
+  <a href="#" class="w3-bar-item w3-button">Hockey </a>
+
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>All Sports News </h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom"><a href="index.html" style="text-decoration: none !important; color: white!important;">The New York Time</a></h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">See More </button>
+    </div>
+  </div>
+</header>
+ <br>
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+<!--Min content start-->
+<div class="container">
+    <div class="row" style="width: 1200px; height: 500px;">
+        <div class="col-lg-5 col-md-5">
+            <div style="padding-top: 30%;">
+                <h2><a href="#">As a Coach and a Cop in Minneapolis, Where Would He Draw the Line?</a></h2>
+                <p class=""><a href="#">While his city struggles with the pandemic and wounds laid bare by George Floyd’s killing, Charles Adams embodies the everyday people trying to make change.</a></p>
+            </div>
+        </div>
+        <div class="col-lg-7 col-md-7" style="width: 600px; height: 400px;">
+            <div style="width: 100%px; height:auto;"><a href="#"><img src="images/sports3.jpg"></a></div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<!--Min content End -->
+<!-- Start All Sports galler -->
+
+<br>
+<h3 class="mx-5"> Sports Gallary </h3>
+<br>
+<div class="container services ">
+  <div class="row extra-divs">
+      <div class="col-lg-3 col-md-3 col-12 box  all-news">
+      
+            <div class="card all-news " >
+             <a href="#"> <img class="card-img-top" src="images/sports5.jpg" alt="Card image" style="width:100%"></a>
+              <div class="card-body">
+                  <div>
+                      <h4>
+                      <a href="#">What We Learned From Week 7 of the N.F.L. Season</a>  
+                  </h4>
+                  </div>
+                <p class="card-text">
+                   <a href="#">Arizona shocked Seattle in overtime, Baker Mayfield caught fire after a rough start and the Steelers held on to beat the Titans.</a>
+                    </p>
+              </div>
+            </div>
+      </div><br>
+      <div class="col-lg-3 col-md-3 col-12 box  all-news">
+      
+        <div class="card all-news " >
+         <a href="#"> <img class="card-img-top" src="images/sports10.jpg" alt="Card image" style="width:100%"></a>
+          <div class="card-body">
+              <div>
+                  <h4>
+                  <a href="#">What Went Wrong for the Patriots? Everything</a>  
+              </h4>
+              </div>
+            <p class="card-text">
+               <a href="#">Bill Belichick blamed “offense, defense, special teams, running, passing, defending the run, defending the pass, ball security, tackling, blocking.” </a>
+                </p>
+          </div>
+        </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-3 col-md-3 col-12 box  all-news">
+      
+    <div class="card all-news " >
+     <a href="#"> <img class="card-img-top" src="images/sports7.jpg" alt="Card image" style="width:100%"></a>
+      <div class="card-body">
+          <div>
+              <h4>
+              <a href="#">Clayton Kershaw Steadies Dodgers and Puts a World Series Within Reach</a>  
+          </h4>
+          </div>
+        <p class="card-text">
+           <a href="#">A major overhaul of the infrastructure in Japan, which remains heavily dependent on fossil fuels.</a>
+            </p>
+      </div>
+    </div>
+
+</div>
+<br>
+<div class="col-lg-3 col-md-3 col-12 box  all-news">
+      
+<div class="card all-news " >
+ <a href="#"> <img class="card-img-top" src="images/sports8.jpg" alt="Card image" style="width:100%"></a>
+  <div class="card-body">
+      <div>
+          <h4>
+          <a href="#">N.F.L. Punishes Titans for Their Handling of Coronavirus Outbreak</a>  
+      </h4>
+      </div>
+    <p class="card-text">
+       <a href="#">With Virtual Reality, Caregivers Can Become Patients
+        Is Telemedicine Here to Stay?</a>
+        </p>
+  </div>
+</div>
+</div>
+<br>
+  </div>
+  <br>
+  <div class="row extra-divs">
+    <div class="col-lg-3 col-md-3 col-12 box  " style="width: 270px; height: 300px;">
+    
+          <div class="card  " >
+           <a href="#"> <img class="card-img-top" src="images/sports1.jpg" alt="Card image" style="width:100%"></a>
+            <div class="card-body">
+                <div>
+                    <h4>
+                    <a href="#">Titans’ Missed Kick Keeps Steelers Unbeaten</a>  
+                </h4>
+                </div>
+            </div>
+          </div>
+    </div><br>
+    <div class="col-lg-3 col-md-3 col-12 box " style="width: 270px; height: 300px;">
+    
+      <div class="card  " >
+       <a href="#"> <img class="card-img-top" src="images/anim1.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+            <div>
+                <h4>
+                <a href="#">Trump Had One Last Story to Sell. The Wall Street Journal Wouldn’t Buy It.</a>  
+            </h4>
+            </div>
+        
+        </div>
+      </div>
+
+</div>
+<br>
+<div class="col-lg-3 col-md-3 col-12 box  ">
+    
+  <div class="card  " >
+   <a href="#"> <img class="card-img-top" src="images/sports11.jpg" alt="Card image" style="width:100%"></a>
+    <div class="card-body">
+        <div>
+            <h4>
+            <a href="#">Apple, Google and a Deal That Controls the Internet</a>  
+        </h4>
+        </div>
+    </div>
+  </div>
+
+</div>
+<br>
+<div class="col-lg-3 col-md-3 col-12 box  style="width: 270px; height: 300px;s">
+    
+<div class="card  " >
+<a href="#"> <img class="card-img-top" src="images/sports9.jpg" alt="Card image" style="width:100%"></a>
+<div class="card-body">
+    <div>
+        <h4>
+        <a href="#">The Short Tenure and Abrupt Ouster of Banking’s Sole Black C.E.O.</a>  
+    </h4>
+    </div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<br>
+<hr>
+<br>
+<!-- End of all sports gallery -->
+<div>
+
+<h2 class="w3-center">All Team Images</h2>
+<div class="w3-content" style="max-width:800px;position:relative">
+<a href="#">
+<img class="mySlides w3-animate-opacity" src="images/sports2.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="images/sports1.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="images/sports3.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="images/sports5.jpg" style="width:100%">
+</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+</div>
+</div>
+<br>
+<div class="">
+<div class=" ">
+  <span class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')"></span>
+  <span class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')"></span>
+  <span class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')"></span>
+</div>
+
+</div>
+
+
+<!--Footer -->
+
+
+<footer class="page-footer font-small blue pt-4" >
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">The New York Times </h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">News</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html">Home page</a>
+            </li>
+            <li>
+              <a href="#!">World </a>
+            </li>
+            <li>
+              <a href="#!">U.S </a>
+            </li>
+            <li>
+              <a href="#!"> Politics </a>
+            </li>
+            <li>
+              <a href="#!"> Election 2020 </a>
+            </li>
+            <li>
+              <a href="#!"> Business </a>
+            </li>
+            <li>
+              <a href="#!"> Sports </a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase"> Opinions </h5>
+  
+          <ul class="list-unstyled three-column">
+            <li>
+              <a href="#!">Today's Opinion </a>
+            </li>
+            <li>
+              <a href="#!"> Op-Ed Columnists</a>
+            </li>
+            <li>
+              <a href="#!">Editorials </a>
+            </li>
+            <li>
+              <a href="#!">Letters </a>
+            </li>
+            <li>
+              <a href="#!">Sunday Review  </a>
+            </li>
+            <li>
+              <a href="#!">Videos: Opinion </a>
+            </li>
+            <li>
+              <a href="#!"> Op-Ed Contributors  </a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  <hr>
+    <!-- Copyright -->
+    <div class="row">
+  <div class="col-lg-5 col-md-5">
+    <div class="footer-copyright py-3 pl-3 px-1">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/">© 2020 The New York Times Company
+      </a>
+      
+    </div>
+  </div>
+  <div class="col-lg-7 col-md-7">
+    
+    <ul class="list-unstyled py-3 ">
+      <li  style="display: inline-block; padding: 10px !important; ">
+        <a href="#!">Home page</a>
+      </li>
+      <li  style="display: inline-block; padding: 10px !important;">
+        <a href="#!">World </a>
+      </li>
+      <li  style="display: inline-block; padding: 10px !important; ">
+        <a href="#!">U.S </a>
+      </li>
+      <li  style="display: inline-block; padding: 10px !important; ">
+        <a href="#!"> Politics </a>
+      </li>
+      <li  style="display: inline-block; padding: 10px !important;">
+        <a href="#!"> Election 2020 </a>
+      </li>
+      <li  style="display: inline-block; padding: 10px !important;">
+        <a href="#!"> Business </a>
+      </li>
+      <li  style="display: inline-block; padding: 10px!important;">
+        <a href="#!"> Sports </a>
+      </li>
+    </ul>
+  </div>
+    </div>
+   
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
